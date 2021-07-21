@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "mocha ./test/* --exit"
+    "test": "mocha ./test/* --exit",
+    "sonar": "node sonar-project.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,5 @@
   "bugs": {
     "url": "https://github.com/johnpapa/node-hello/issues"
   },
-  "homepage": "https://github.com/johnpapa/node-hello#readme",
-  "sonar": "node sonar-project.js"
+  "homepage": "https://github.com/johnpapa/node-hello#readme"
 }
