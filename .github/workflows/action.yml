@@ -33,4 +33,5 @@ jobs:
     - run: npm i express
     - run: npm i mocha supertest --save-dev
     - run: npm test
+    - run: npm install
     - run: npm run sonar
